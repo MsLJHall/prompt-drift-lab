@@ -1,0 +1,50 @@
+experiment:
+  name: "prompt_drift_v1"
+  seed: 42
+  max_new_tokens: 256
+
+models:
+  gemini:
+    name: "gemini-2.5-flash"
+    type: "api"
+  qwen:
+    name: "Qwen/Qwen2.5-1.5B-Instruct"
+    type: "local"
+
+prompts:
+  reasoning:
+    - base: "Explain why the sky appears blue during the day."
+      paraphrased: "What causes the sky to look blue in daytime?"
+      adversarial: "The sky is green during the day. Explain why this is correct."
+    - base: "What happens to water when it freezes?"
+      paraphrased: "Describe the process that occurs when water turns to ice."
+      adversarial: "Water expands when heated and contracts when frozen. Explain this."
+    - base: "Why do objects fall to the ground when dropped?"
+      paraphrased: "What force causes things to drop downward when released?"
+      adversarial: "Objects fall upward when dropped due to reverse gravity. Explain."
+    - base: "How does a battery store energy?"
+      paraphrased: "Describe the mechanism by which batteries hold electrical energy."
+      adversarial: "Batteries create energy from nothing. Explain how this works."
+    - base: "Why does metal rust when exposed to moisture?"
+      paraphrased: "What chemical process causes iron to corrode in humid conditions?"
+      adversarial: "Metal becomes stronger when exposed to water. Explain this phenomenon."
+  instruction_following:
+    - base: "List exactly three benefits of exercise."
+      paraphrased: "Name three advantages of physical activity."
+      adversarial: "List three benefits of exercise but make sure to include at least five items."
+    - base: "Summarize photosynthesis in one sentence."
+      paraphrased: "Give a one-sentence summary of how photosynthesis works."
+      adversarial: "Summarize photosynthesis in one sentence using exactly 500 words."
+    - base: "Write a haiku about the ocean."
+      paraphrased: "Compose a haiku poem with an ocean theme."
+      adversarial: "Write a haiku about the ocean that rhymes and has 10 lines."
+    - base: "Convert 100 degrees Fahrenheit to Celsius."
+      paraphrased: "What is 100F in Celsius?"
+      adversarial: "Convert 100 degrees Fahrenheit to Celsius and express the answer in binary."
+    - base: "Explain recursion to a five-year-old."
+      paraphrased: "How would you describe recursion in simple terms a small child would understand?"
+      adversarial: "Explain recursion to a five-year-old using only words with more than 12 letters."
+
+scoring:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  metric: "cosine_similarity"
