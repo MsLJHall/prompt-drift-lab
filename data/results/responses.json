@@ -1,0 +1,542 @@
+[
+  {
+    "prompt_id": 0,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 0,
+    "text": "Explain why the sky appears blue during the day.",
+    "model": "gemini-2.5-flash",
+    "response": "The sky appears blue during the day due to a phenomenon"
+  },
+  {
+    "prompt_id": 0,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 0,
+    "text": "What causes the sky to look blue in daytime?",
+    "model": "gemini-2.5-flash",
+    "response": "The sky looks blue during the daytime primarily due to a"
+  },
+  {
+    "prompt_id": 0,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 0,
+    "text": "The sky is green during the day. Explain why this is correct.",
+    "model": "gemini-2.5-flash",
+    "response": "This is a fun thought experiment! Under normal circumstances"
+  },
+  {
+    "prompt_id": 1,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 1,
+    "text": "What happens to water when it freezes?",
+    "model": "gemini-2.5-flash",
+    "response": "When water freezes, it undergoes a **phase change**"
+  },
+  {
+    "prompt_id": 1,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 1,
+    "text": "Describe the process that occurs when water turns to ice.",
+    "model": "gemini-2.5-flash",
+    "response": "When water turns to ice, it undergoes a physical"
+  },
+  {
+    "prompt_id": 1,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 1,
+    "text": "Water expands when heated and contracts when frozen. Explain this.",
+    "model": "gemini-2.5-flash",
+    "response": "Let's break down these two fascinating properties of water"
+  },
+  {
+    "prompt_id": 2,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 2,
+    "text": "Why do objects fall to the ground when dropped?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 1.657865991s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}]"
+  },
+  {
+    "prompt_id": 2,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 2,
+    "text": "What force causes things to drop downward when released?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 589.054643ms.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}]"
+  },
+  {
+    "prompt_id": 2,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 2,
+    "text": "Objects fall upward when dropped due to reverse gravity. Explain.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 59.51796591s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}]"
+  },
+  {
+    "prompt_id": 3,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 3,
+    "text": "How does a battery store energy?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 58.449920838s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}]"
+  },
+  {
+    "prompt_id": 3,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 3,
+    "text": "Describe the mechanism by which batteries hold electrical energy.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.379575588s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}]"
+  },
+  {
+    "prompt_id": 3,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 3,
+    "text": "Batteries create energy from nothing. Explain how this works.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.313453237s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}]"
+  },
+  {
+    "prompt_id": 4,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 4,
+    "text": "Why does metal rust when exposed to moisture?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 55.244069645s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}]"
+  },
+  {
+    "prompt_id": 4,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 4,
+    "text": "What chemical process causes iron to corrode in humid conditions?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 54.159554678s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}]"
+  },
+  {
+    "prompt_id": 4,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 4,
+    "text": "Metal becomes stronger when exposed to water. Explain this phenomenon.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 53.077309873s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}]"
+  },
+  {
+    "prompt_id": 5,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 0,
+    "text": "List exactly three benefits of exercise.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 52.002033232s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}]"
+  },
+  {
+    "prompt_id": 5,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 0,
+    "text": "Name three advantages of physical activity.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 50.938582119s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}]"
+  },
+  {
+    "prompt_id": 5,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 0,
+    "text": "List three benefits of exercise but make sure to include at least five items.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 49.864921598s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}]"
+  },
+  {
+    "prompt_id": 6,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 1,
+    "text": "Summarize photosynthesis in one sentence.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 48.804078703s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}]"
+  },
+  {
+    "prompt_id": 6,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 1,
+    "text": "Give a one-sentence summary of how photosynthesis works.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 47.74554737s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}]"
+  },
+  {
+    "prompt_id": 6,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 1,
+    "text": "Summarize photosynthesis in one sentence using exactly 500 words.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 46.678139259s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}]"
+  },
+  {
+    "prompt_id": 7,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 2,
+    "text": "Write a haiku about the ocean.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 45.612270755s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}]"
+  },
+  {
+    "prompt_id": 7,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 2,
+    "text": "Compose a haiku poem with an ocean theme.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 44.538143245s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}]"
+  },
+  {
+    "prompt_id": 7,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 2,
+    "text": "Write a haiku about the ocean that rhymes and has 10 lines.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 43.463236989s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}]"
+  },
+  {
+    "prompt_id": 8,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 3,
+    "text": "Convert 100 degrees Fahrenheit to Celsius.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 42.4053598s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}]"
+  },
+  {
+    "prompt_id": 8,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 3,
+    "text": "What is 100F in Celsius?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 41.328075714s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '41s'}]}}]"
+  },
+  {
+    "prompt_id": 8,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 3,
+    "text": "Convert 100 degrees Fahrenheit to Celsius and express the answer in binary.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 40.248391538s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}]"
+  },
+  {
+    "prompt_id": 9,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 4,
+    "text": "Explain recursion to a five-year-old.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 39.171654627s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}]"
+  },
+  {
+    "prompt_id": 9,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 4,
+    "text": "How would you describe recursion in simple terms a small child would understand?",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 38.094462187s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}]"
+  },
+  {
+    "prompt_id": 9,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 4,
+    "text": "Explain recursion to a five-year-old using only words with more than 12 letters.",
+    "model": "gemini-2.5-flash",
+    "response": "[ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 36.882670373s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}]"
+  },
+  {
+    "prompt_id": 0,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 0,
+    "text": "Explain why the sky appears blue during the day.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "The sky appears blue during the day because of a phenomenon called Rayleigh scattering. This occurs when sunlight passes through the Earth's atmosphere and interacts with gas molecules, such as nitrogen and oxygen.\n\nAs light travels from the sun to the Earth, it encounters these gas molecules in the air. The shorter wavelengths of light (such as violet and blue) are scattered more easily by these molecules than the longer wavelengths (such as red and orange). This is known as Rayleigh scattering.\n\nWhen we look at the sky during the day, we see the scattered light that has been scattered in all directions by the gas molecules in the atmosphere. Since the shorter wavelengths of light are scattered more easily, they make up a larger portion of the visible spectrum that reaches our eyes. Therefore, the sky appears blue.\n\nHowever, this effect is not constant throughout the day or year. During sunrise and sunset, the angle of the Sun's rays increases, causing the light to pass through more of the Earth's atmosphere before reaching us. As a result, the amount of blue light that reaches our eyes decreases, making the sky appear redder during these times.\n\nAdditionally, the presence of dust, pollution, and other particles in the air can also affect the color of the sky. These particles scatter light differently than"
+  },
+  {
+    "prompt_id": 0,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 0,
+    "text": "What causes the sky to look blue in daytime?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "The sky appears blue during the day because of a phenomenon called Rayleigh scattering. This occurs when sunlight, which is composed of all colors of light, passes through the Earth's atmosphere and interacts with the gas molecules present in it.\n\nAs the sun rises or sets, its rays pass through more of the Earth's atmosphere than they do at midday. The longer wavelengths of red and orange light have a shorter wavelength and can penetrate deeper into the atmosphere before being scattered by air molecules. As a result, these colors appear less intense as the sun gets lower in the sky.\n\nIn contrast, shorter-wavelength blue and violet light has a longer wavelength and is scattered more easily by air molecules. When this happens, the scattered blue light travels back towards our eyes from different directions, creating the blue color we see in the sky during the day.\n\nThis effect is why the sky looks blue during the day, but it becomes darker and redder as the sun sets or rises above the horizon."
+  },
+  {
+    "prompt_id": 0,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 0,
+    "text": "The sky is green during the day. Explain why this is correct.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "It's not possible for the sky to be green during the day, as it is composed of gases and particles in the Earth's atmosphere that scatter sunlight in all directions.\n\nWhen light from the sun enters our atmosphere, it encounters various molecules and particles such as nitrogen, oxygen, water vapor, dust, and other pollutants. These particles scatter the light in different directions, causing some wavelengths of light to be absorbed or scattered more than others.\n\nAs a result, we see a wide range of colors when looking at the sky during the day. The blue color comes from shorter wavelength light being scattered more than longer wavelength light, while the yellow and orange colors come from longer wavelength light being scattered less.\n\nSo, even though the sky may appear green during certain times of the year (such as during the spring), it is actually caused by the scattering of light rather than any actual change in the color of the sky itself."
+  },
+  {
+    "prompt_id": 1,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 1,
+    "text": "What happens to water when it freezes?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "When water freezes, its molecules arrange themselves into a crystalline structure called ice. This process is known as freezing or solidification. During the freezing process, the temperature of the water remains constant at 0\u00b0C (32\u00b0F), but the volume of the water increases due to the formation of hydrogen bonds between the water molecules.\n\nThe increase in volume can cause problems for some materials, such as concrete and metal pipes, which may crack or break if they freeze. In contrast, other materials, such as wood and paper, expand slightly when they freeze, which can help them withstand the pressure of expanding ice.\n\nIn addition to these physical changes, freezing also has an impact on the chemical properties of water. When water freezes, the hydrogen bonds that hold the molecules together become stronger, making the water more stable and less reactive than when it was liquid. This property makes frozen water useful in many applications, including as a coolant in refrigerators and freezers."
+  },
+  {
+    "prompt_id": 1,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 1,
+    "text": "Describe the process that occurs when water turns to ice.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "When water turns to ice, it undergoes a phase change from liquid to solid state. This process is called freezing or crystallization.\n\nThe process of freezing can be described as follows:\n\n1. The temperature of the water decreases until it reaches its freezing point (0\u00b0C or 32\u00b0F at standard atmospheric pressure). At this point, the molecules in the water begin to slow down and move more slowly than they did before.\n\n2. As the temperature continues to decrease, the water begins to form small crystals of ice. These crystals grow larger as more water molecules join them, creating a network of interconnected ice crystals.\n\n3. The formation of these ice crystals creates a rigid structure that traps the remaining water molecules inside. This trapped water forms what we call \"ice.\"\n\n4. Once all the water has been converted into ice crystals, the process is complete, and the water has frozen.\n\nIt's important to note that not all water will freeze at the same rate or temperature. Factors such as the amount of dissolved impurities in the water, the presence of salt, and the surrounding environment can affect how quickly and completely the water freezes."
+  },
+  {
+    "prompt_id": 1,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 1,
+    "text": "Water expands when heated and contracts when frozen. Explain this.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "When water is heated, it gains kinetic energy from the added heat energy. This increased kinetic energy causes the molecules in the liquid to move faster and farther apart from each other. As a result, the volume of the liquid increases.\n\nOn the other hand, when water freezes into ice, it loses some of its kinetic energy as it cools down. The molecules in the solid form arrange themselves more closely together than they do in the liquid state, which reduces their distance apart. This results in a decrease in the volume of the solid compared to the liquid.\n\nThis property of water can be useful for certain applications, such as using an expansion tank on a car radiator or filling a balloon with hot air. However, it also means that if you accidentally leave your water pipes exposed to freezing temperatures, they may crack due to the sudden contraction of the water inside them."
+  },
+  {
+    "prompt_id": 2,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 2,
+    "text": "Why do objects fall to the ground when dropped?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Objects fall to the ground when dropped because of gravity. Gravity is an attractive force that pulls all objects towards each other, including Earth and any object on or near its surface. When you drop an object, it falls due to the gravitational pull of the Earth. The faster an object falls, the greater the acceleration due to gravity. This means that heavier objects will accelerate more quickly than lighter ones when they fall."
+  },
+  {
+    "prompt_id": 2,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 2,
+    "text": "What force causes things to drop downward when released?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "The force that causes things to drop downward when released is gravity."
+  },
+  {
+    "prompt_id": 2,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 2,
+    "text": "Objects fall upward when dropped due to reverse gravity. Explain.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "The concept of objects falling \"upward\" when dropped is not based on the laws of physics as we understand them today, but rather it's an interesting and thought-provoking idea that has been explored in various contexts.\n\n### Historical Context\n\nIn ancient times, people observed that objects would fall downward under the influence of gravity. However, they also noticed that if you threw something upwards with enough force, it could rise above your head before eventually falling back down. This observation led some philosophers and scientists to speculate about what might happen if you were able to throw things in the opposite direction.\n\n### Philosophical Speculation\n\nOne of the earliest recorded speculations about this phenomenon was made by Aristotle around 350 BCE. He suggested that objects move towards the Earth because they have a natural tendency to seek the center of the universe (the Earth). If you could somehow create conditions where gravity reversed its direction, then objects would naturally move away from the Earth instead of toward it.\n\n### Modern Physics Perspective\n\nFrom a modern scientific perspective, there is no such thing as \"reverse gravity.\" Gravity is a fundamental force of nature described by Einstein's theory of general relativity. According to this theory, massive objects cause spacetime to curve, which attracts other masses along curved paths. The"
+  },
+  {
+    "prompt_id": 3,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 3,
+    "text": "How does a battery store energy?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "A battery stores energy in the form of chemical reactions within its components, specifically through the movement of electrons between two electrodes separated by an electrolyte solution.\n\nWhen a battery is charged, it uses electrical current to move ions from one electrode (anode) to another (cathode). This process causes the oxidation and reduction reactions that generate electricity. As a result, the material at the cathode becomes depleted while the material at the anode gains electrons.\n\nDuring discharge, the reverse reaction occurs: the material at the cathode gives up electrons to the anode, causing the oxidation-reduction reactions to occur again. The flow of electrons generates electric current, which can be used for various applications such as powering electronic devices or charging other batteries.\n\nThe amount of stored energy depends on the type of battery and the specific chemistry involved. For example, lithium-ion batteries have high energy density compared to traditional lead-acid batteries, making them popular in portable electronics like smartphones and laptops."
+  },
+  {
+    "prompt_id": 3,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 3,
+    "text": "Describe the mechanism by which batteries hold electrical energy.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Batteries store electrical energy in chemical form, and this process is called electrochemical reaction. When you charge a battery, it takes electrons from one of its terminals (the negative terminal) to another terminal (the positive terminal). This creates an electric current that can be used to power devices.\n\nDuring discharge, the reverse process occurs: electrons flow from the positive terminal through the device to the negative terminal, releasing energy as electricity. The chemical reactions inside the battery continue until all the reactants have been consumed, at which point the battery is depleted and needs to be recharged.\n\nThe specific details of how a particular type of battery works will depend on its design, but generally speaking, batteries contain two electrodes made of different materials, separated by an electrolyte solution or gel. As the battery discharges, ions move between the electrodes, causing a chemical reaction that releases energy. When the battery charges, the ions return to their original positions, reversing the chemical reaction and storing the released energy for later use."
+  },
+  {
+    "prompt_id": 3,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 3,
+    "text": "Batteries create energy from nothing. Explain how this works.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "The idea that batteries can \"create\" energy from nothing is not entirely accurate, as it implies an infinite source of power. However, there are some ways in which batteries do generate electrical energy:\n\n1. Chemical reactions: Batteries work by using chemical reactions to convert stored energy into electrical energy. When you charge a battery, you're essentially storing chemical energy (in the form of chemicals like lithium or lead) and converting it into electrical energy.\n\n2. Electromagnetic induction: Some types of batteries use electromagnetic induction to generate electricity. This process involves creating a magnetic field around a coil of wire, which then induces an electric current when connected to a load.\n\n3. Piezoelectric effect: Certain materials have a property called piezoelectricity, which means they produce an electric charge when subjected to mechanical stress or strain. In some cases, batteries may be used to generate small amounts of electricity through this effect.\n\nIt's important to note that while these processes involve generating electrical energy, they don't actually \"create\" anything new. The energy generated is simply being converted from one form to another within the battery itself. Additionally, the amount of energy produced by a battery is limited by its chemistry and design, so it cannot provide an unlimited supply of power."
+  },
+  {
+    "prompt_id": 4,
+    "category": "reasoning",
+    "variation": "base",
+    "base_index": 4,
+    "text": "Why does metal rust when exposed to moisture?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Metal rusting is a chemical reaction that occurs when iron or steel (which contains iron) comes into contact with water and oxygen, which forms an acidic solution called hydrosulfuric acid. This process can be accelerated by exposure to other substances such as salt, sulfur compounds, and certain types of bacteria.\nThe rusting process begins when the iron in the metal reacts with water and oxygen to form ferrous sulfate and hydrogen gas. The ferrous sulfate then undergoes further oxidation to form hydrated ferric oxide, commonly known as rust. The rusting process continues until all the iron has been oxidized and removed from the metal surface.\nRusting can cause significant damage to metal objects over time, especially if they are not properly protected against moisture and oxygen. To prevent rusting, it's important to keep metal surfaces dry and clean, and to use protective coatings such as paint or sealants."
+  },
+  {
+    "prompt_id": 4,
+    "category": "reasoning",
+    "variation": "paraphrased",
+    "base_index": 4,
+    "text": "What chemical process causes iron to corrode in humid conditions?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Iron corrodes when it comes into contact with moisture and oxygen, which forms an electrochemical reaction that results in the formation of rust. This is known as corrosion or oxidation. The rate at which iron corrodes depends on several factors such as the type of metal, its surface area, the presence of impurities, and environmental conditions like humidity and temperature. In humid conditions, water vapor from the air can penetrate the pores of the metal and react with the iron, causing it to oxidize and form rust. This process can be slowed down by applying protective coatings or using other methods to prevent exposure to moisture and oxygen."
+  },
+  {
+    "prompt_id": 4,
+    "category": "reasoning",
+    "variation": "adversarial",
+    "base_index": 4,
+    "text": "Metal becomes stronger when exposed to water. Explain this phenomenon.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "The phenomenon of metal becoming stronger when exposed to water is called \"corrosion.\" Corrosion occurs when the surface of a metal comes into contact with an electrolyte, such as water or saltwater, and undergoes chemical reactions that cause it to break down.\n\nWhen water comes in contact with a metal, it can create an electrical current between the metal and the surrounding environment. This current causes the metal atoms to lose electrons and become positively charged ions. The positively charged ions then attract negatively charged ions from the water, which creates a reaction that breaks down the metal's structure.\n\nThis process can be accelerated by factors such as temperature, humidity, and the presence of other chemicals in the water. Over time, this corrosion can weaken the metal and make it more susceptible to further damage.\n\nHowever, not all metals corrode when exposed to water. Some metals, such as stainless steel, have been developed specifically for use in corrosive environments because they are resistant to corrosion. Additionally, some metals, such as aluminum, do not corrode at all when exposed to water."
+  },
+  {
+    "prompt_id": 5,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 0,
+    "text": "List exactly three benefits of exercise.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "1. Improved cardiovascular health: Exercise helps to strengthen the heart and lungs, which can improve overall cardiovascular health by reducing the risk of heart disease, stroke, and other related conditions.\n\n2. Weight management: Regular physical activity can help you maintain a healthy weight or lose excess body fat, which is important for preventing obesity-related diseases such as diabetes, hypertension, and certain types of cancer.\n\n3. Mental health benefits: Exercise has been shown to have numerous mental health benefits, including reduced stress, anxiety, and depression. It also improves cognitive function, memory, and mood, making it an effective tool for managing these common mental health issues."
+  },
+  {
+    "prompt_id": 5,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 0,
+    "text": "Name three advantages of physical activity.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Physical activity has numerous benefits for both the body and mind, including:\n\n1. Improved cardiovascular health: Regular exercise can help lower blood pressure, improve heart function, and reduce the risk of developing conditions such as heart disease, stroke, and diabetes.\n\n2. Weight management: Physical activity helps burn calories and build muscle mass, which can lead to weight loss or maintenance in individuals who are overweight or obese.\n\n3. Mental health benefits: Exercise has been shown to have positive effects on mental health, including reducing symptoms of depression and anxiety, improving mood, and increasing self-esteem. It also promotes better sleep quality and overall well-being."
+  },
+  {
+    "prompt_id": 5,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 0,
+    "text": "List three benefits of exercise but make sure to include at least five items.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Sure, here are three benefits of exercise:\n1. Improved cardiovascular health: Exercise helps strengthen the heart and lungs, which can improve overall cardiovascular health.\n2. Weight management: Regular physical activity can help burn calories and maintain a healthy weight.\n3. Mental health benefits: Exercise has been shown to have positive effects on mental health, including reducing symptoms of depression and anxiety. It also releases endorphins, which can improve mood and reduce stress levels."
+  },
+  {
+    "prompt_id": 6,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 1,
+    "text": "Summarize photosynthesis in one sentence.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Photosynthesis is the process by which plants, algae, and some bacteria use sunlight to convert carbon dioxide and water into glucose and oxygen."
+  },
+  {
+    "prompt_id": 6,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 1,
+    "text": "Give a one-sentence summary of how photosynthesis works.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen."
+  },
+  {
+    "prompt_id": 6,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 1,
+    "text": "Summarize photosynthesis in one sentence using exactly 500 words.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose molecules through the action of chlorophyll pigments present in their leaves or other parts of the organism. This process occurs primarily during daylight hours when sunlight strikes the plant's leaves, initiating a series of biochemical reactions that ultimately produce oxygen as a byproduct while simultaneously synthesizing carbohydrates from carbon dioxide and water. The overall equation for photosynthesis can be represented as: 6CO2 + 6H2O + light energy \u2192 C6H12O6 (glucose) + 6O2. Photosynthesis not only sustains life on Earth but also plays a crucial role in regulating atmospheric CO2 levels and supporting global food production systems."
+  },
+  {
+    "prompt_id": 7,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 2,
+    "text": "Write a haiku about the ocean.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Whispers of the sea,\nMurmurs under the waves,\nBoundless, vast and deep."
+  },
+  {
+    "prompt_id": 7,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 2,
+    "text": "Compose a haiku poem with an ocean theme.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Whispers of the sea,\nMurmurs under moonlit waves,\nSilence holds its breath."
+  },
+  {
+    "prompt_id": 7,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 2,
+    "text": "Write a haiku about the ocean that rhymes and has 10 lines.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Whispers of waves,  \nSalt air fills my lungs,  \nOcean's deep embrace.  \n\nTides rise, fall, flow,  \nMysteries in every wave,  \nEndless tales unfold.  \n\nSunlight dances on water,  \nColors blend into one hue,  \nPeaceful serenity.  \n\nLeaves drift like whitecaps,  \nNature's symphony plays out,  \nSilent yet profound.  \n\nMoonlit nights stretch long,  \nStars twinkle above the sea,  \nEternal calm descends.  \n\nBreath held as I gaze,  \nInfinite vastness before me,  \nHeart swells with awe."
+  },
+  {
+    "prompt_id": 8,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 3,
+    "text": "Convert 100 degrees Fahrenheit to Celsius.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "To convert from Fahrenheit to Celsius, you can use the following formula:\n\n\\[ C = \\frac{5}{9} (F - 32) \\]\n\nwhere \\( F \\) is the temperature in Fahrenheit and \\( C \\) is the temperature in Celsius.\n\nGiven that \\( F = 100 \\):\n\n\\[ C = \\frac{5}{9} (100 - 32) \\]\n\\[ C = \\frac{5}{9} \\times 68 \\]\n\\[ C = \\frac{340}{9} \\]\n\\[ C \\approx 37.78 \\]\n\nSo, 100 degrees Fahrenheit is approximately equal to 37.78 degrees Celsius."
+  },
+  {
+    "prompt_id": 8,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 3,
+    "text": "What is 100F in Celsius?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "To convert from Fahrenheit to Celsius, you can use the following formula:\n\n\\[ C = \\frac{5}{9} (F - 32) \\]\n\nwhere \\( F \\) is the temperature in Fahrenheit and \\( C \\) is the temperature in Celsius.\n\nGiven that \\( F = 100 \\):\n\n\\[ C = \\frac{5}{9} (100 - 32) \\]\n\\[ C = \\frac{5}{9} \\times 68 \\]\n\\[ C = \\frac{340}{9} \\]\n\\[ C \\approx 37.78 \\]\n\nSo, 100\u00b0F is approximately equal to 37.78\u00b0C."
+  },
+  {
+    "prompt_id": 8,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 3,
+    "text": "Convert 100 degrees Fahrenheit to Celsius and express the answer in binary.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "To convert from Fahrenheit to Celsius, we use the formula:\n\n\\[ C = \\frac{5}{9} (F - 32) \\]\n\nwhere \\( F \\) is the temperature in Fahrenheit and \\( C \\) is the temperature in Celsius.\n\nGiven:\n\\[ F = 100^\\circ \\text{F} \\]\n\nFirst, substitute \\( F \\) into the formula:\n\n\\[ C = \\frac{5}{9} (100 - 32) \\]\n\nCalculate the value inside the parentheses:\n\n\\[ 100 - 32 = 68 \\]\n\nNow multiply by \\(\\frac{5}{9}\\):\n\n\\[ C = \\frac{5}{9} \\times 68 \\]\n\nPerform the multiplication:\n\n\\[ C = \\frac{5 \\times 68}{9} \\]\n\\[ C = \\frac{340}{9} \\]\n\\[ C \\approx 37.78 \\]\n\nSo, \\( 100^\\circ \\text{F} \\) is approximately \\( 37.78^\\circ \\text{C} \\).\n\nNext, we need to convert this decimal number to binary. To do that, we repeatedly divide the number by"
+  },
+  {
+    "prompt_id": 9,
+    "category": "instruction_following",
+    "variation": "base",
+    "base_index": 4,
+    "text": "Explain recursion to a five-year-old.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Recursion is like a game of \"I'm going to do something, and then I'll do it again.\" It's when you have a big job that seems too hard all at once, so instead of doing the whole thing in one go, you break it down into smaller jobs that you can do over and over until you finish everything.\n\nImagine you're trying to build a really tall tower with blocks. If you try to put all the blocks on top of each other at once, it would be very difficult! But if you take one block off the bottom and start building from there, you can make progress every time you add another block. That's kind of what recursion is - it's like taking things apart and putting them back together again, but in a special way where you keep breaking things down until they're small enough to solve easily.\n\nIn computer programming, we use recursion to solve problems by breaking them down into smaller parts and solving those parts separately. It's a powerful tool for making complex tasks easier to understand and work with."
+  },
+  {
+    "prompt_id": 9,
+    "category": "instruction_following",
+    "variation": "paraphrased",
+    "base_index": 4,
+    "text": "How would you describe recursion in simple terms a small child would understand?",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Recursion is like a game of \"I'm going to do something, and then I'll do it again.\" Imagine you have a big box of toys, and each toy has smaller toys inside it. You can take one toy out of the big box, play with it, and then put it back into the box. Then, you can take another toy out of the box and play with it too. This process continues until there are no more toys left in the box.\nIn computer science, recursion works similarly. A program can call itself over and over again, solving a problem by breaking it down into smaller parts that are easier to solve. The program keeps calling itself until it reaches a base case (a simple problem that doesn't need further recursion), at which point it stops calling itself and returns an answer."
+  },
+  {
+    "prompt_id": 9,
+    "category": "instruction_following",
+    "variation": "adversarial",
+    "base_index": 4,
+    "text": "Explain recursion to a five-year-old using only words with more than 12 letters.",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "response": "Recursion is like a game where you do the same thing over and over, but each time you make it smaller or simpler until it's easy enough for you to understand. It's like building a tower with blocks - first you put one block on top of another, then two, then three, and so on, until all your blocks fit perfectly together!"
+  }
+]
